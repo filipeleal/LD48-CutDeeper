@@ -1,0 +1,114 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "Player1",
+            "id": "691eda96-cbdc-4a65-8543-2d4e73229591",
+            "actions": [
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "324f058d-b263-4c81-b4b5-ae8742d7cc9b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4facd32d-98a5-4c33-a2a6-1c2b53e537b5",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player2",
+            "id": "a4d2966e-4696-45dd-9285-f1a025f5bdfb",
+            "actions": [
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "2feb3acf-28db-4c2b-8560-4fa6e0b88378",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "36770bef-6028-4278-8fe0-537ad1f23d31",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Game",
+            "id": "3c909612-d8d5-4f81-9020-7960a1172851",
+            "actions": [
+                {
+                    "name": "NewGame",
+                    "type": "Button",
+                    "id": "5e88665c-e9b3-444e-9ad8-de1967a81f1a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f854962c-3c34-491b-80e5-381387b70cff",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NewGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Quit",
+            "id": "3fa6243c-3ae7-44ac-be73-0a358a27f82c",
+            "actions": [
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "df36f660-ba22-4d07-a044-93f335ab9b9f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "19ded37a-0fbe-4a29-b2ca-ec35e337c920",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
